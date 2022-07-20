@@ -78,7 +78,9 @@ main>section+section{margin-top: 20vh;}
 /* islandsエリア */
 .areas{width: 90%;margin: 5vh auto 0;}
 .islandImage{position: relative;}
+.area+.area{margin-top: 4vh;}
 .area img {display:block;width: 70%;margin: 0 auto;object-fit: contain;}
+.area p{width: 85%;margin: 0 auto;}
 .sumneil{display: flex;}
 .former1,.former2,.former3{position: absolute;top: 45%;left: 3%;font-size: 8vh;color: rgba(0,0,0,.2);cursor: pointer;user-select: none;}
 .former1:hover,.former2:hover,.former3:hover{color: rgba(0,0,0,.1)}
@@ -94,6 +96,7 @@ audio{display: block;width: 50%;position:absolute;right: 0;}
 .actImage{width: 35vh;height: 49vh;background-color: #fff;margin: 0 auto;border: 1px solid lightgray;position: relative;}
 .actImage ul{padding: 0;margin: 0;width: 100%;height: 100%;overflow: hidden;white-space:nowrap;scroll-snap-type:x mandatory;scroll-behavior:smooth;}
 .actImage img{width:100%;height:100%;object-fit:contain;}
+.act p{width: 90%;margin: 0 auto;}
 .actImage li{list-style: none;display: inline-block;scroll-snap-align:center;width:100%;height:100%;}
 .arrow {top:0;position:absolute;width:8%;height:100%;
 	background:rgba(255,255,255,0.3);cursor:pointer;}
@@ -110,7 +113,7 @@ audio{display: block;width: 50%;position:absolute;right: 0;}
 .play img {display:block;width: 50%;margin: 0 auto;object-fit: contain;}
 
 .toolsitems{display: grid;
-  grid-template-columns: 49vw 49vw;
+  grid-template-columns: 46vw 46vw;
  gap: 2vh 2vw;}
 .toolitem{background-color:lightsteelblue;display: flex;flex-direction: column;}
 .toolitem img{width: 100%;}
@@ -161,6 +164,7 @@ main .fascinate{width: 90%; height: fit-content;display: block;margin: 5vh auto 
 
  /* actionエリア */
 .actions{display: flex;}
+.act{flex:1;}
 .actions h3{font-size:clamp(12px,2.2vw,28px) ;}
 .act+.act{margin-left: 4vw;}
 .actImage{width: 25vh;height: 35vh;background-color: #fff;margin: 0 auto;border: 1px solid lightgray;position: relative;}
@@ -169,7 +173,8 @@ main .fascinate{width: 90%; height: fit-content;display: block;margin: 5vh auto 
 
 /* その他エリア */
 .toolsitems{
-  grid-template-columns: 38.5vw 38.5vw;gap: 2vh 3vw;}
+  grid-template-columns: 35vw 35vw;
+gap: 2vh 3vw;}
 
 
 
