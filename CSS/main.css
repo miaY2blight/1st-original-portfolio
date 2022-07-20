@@ -109,9 +109,10 @@ audio{display: block;width: 50%;position:absolute;right: 0;}
 
 
 /* その他エリア */
-.plays{width: 90%;margin: 0 auto;}
+.plays{width: 90%;margin: 4vh auto;}
+.plays p{width: 90%;margin: 0 auto;}
 .play img {display:block;width: 50%;margin: 0 auto;object-fit: contain;}
-
+#cloud{display: block;width: 35%;}
 .toolsitems{display: grid;
   grid-template-columns: 46vw 46vw;
  gap: 2vh 2vw;}
@@ -172,6 +173,13 @@ main .fascinate{width: 90%; height: fit-content;display: block;margin: 5vh auto 
 
 
 /* その他エリア */
+.plays {display: flex;}
+.play{flex: 1;}
+.play+.play{margin-left:4vw ;}
+.play img{width: 100%;}
+#cloud{width: 75%;}
+
+
 .toolsitems{
   grid-template-columns: 35vw 35vw;
 gap: 2vh 3vw;}
